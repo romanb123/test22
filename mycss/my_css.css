@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+}
+.card{
+    display:inline-block;
+    width:100%;
+}
+.col-lg-3{
+    margin-top:12px;
+}
+.currencies{
+    font-size: 30px;
+}
+p{
+    font-size: 15px;  
+    font-weight: bold; 
+}
+h4{
+    font-size: 25px;  
+    font-weight: bold;     
+}
