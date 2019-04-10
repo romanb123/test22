@@ -3,6 +3,7 @@ $(document).ready(function () {
     $(".allcountries").click(function () {
         $.ajax({
             url: "https://restcountries.eu/rest/v2/all", success: function (result) {
+                $(".row").html("");
                 console.log(result);
                 result.forEach(element => {
                     console.log(element);
@@ -26,8 +27,8 @@ $(document).ready(function () {
         });
     });
 
-    //select country
-    $(".onecountry").click(function () {
+    //select country by writing name
+    $("#country").keyup(function () {
         $.ajax({
             url: "https://restcountries.eu/rest/v2/name/"+$("#country").val(), success: function (result) {
                 console.log(result);

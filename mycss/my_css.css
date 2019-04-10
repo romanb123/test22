@@ -4,6 +4,7 @@ body{
 .card{
     display:inline-block;
     width:100%;
+    background-color: grey;
 }
 .col-lg-3{
     margin-top:12px;
